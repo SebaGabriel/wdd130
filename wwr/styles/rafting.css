@@ -9,6 +9,9 @@
     --font-family1: 'Playfair Display', serif;
     --font-family2: 'Lato', sans-serif;
 }
+body{
+    background-color: var(--color-secondary);
+}
 nav{
     background-color: var(--color-primary);
     padding: 16px;
@@ -18,4 +21,47 @@ nav a{
     text-decoration: none;
     display: inline;
     padding: 10px;
+}
+.hero{
+    position: relative;
+    font-family: ;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: var(--color-text1);
+    font-size: 42px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.hero article{
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    background-color: rgba(0, 86, 150, 0.7);
+    color: var(--color-text1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.hero article p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+.hero article img{
+    display: block;
+    float: right;
+    margin: 5px 10px 5px 10px;
+    width: 100px;
+    height: auto;
 }
