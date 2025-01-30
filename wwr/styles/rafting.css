@@ -12,19 +12,50 @@
     --font-family1: 'Playfair Display', serif;
     --font-family2: 'Lato', sans-serif;
 }
-
 body{
     background-color: var(--color--background);
 }
-nav{
+header{
+    margin: 16px auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
     background-color: var(--color-primary);
-    padding: 16px;
 }
-nav a{
+.logo img{
+    width: 80px;
+    height: auto;
+    margin-left: 8px;
+}
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin-right: 30px;
+    gap: 20px;
+    font-family: var(--font-family1);
+}
+.navigation li{
+    flex: 1 1 auto;
+}
+.navigation a{
+    display: block;
     color: var(--color-text2);
     text-decoration: none;
-    display: inline;
-    padding: 10px;
+    padding: 8px 20px;
+    font-size: 18px;
+}
+.nav-btn{
+    color: var(--color-secondary);
+    background-color: var(--color--background);
+    border-radius: 5px;
+    transition: 0.6s;
+}
+.nav-btn:hover {
+    background-color: var(--color-secondary);
 }
 .hero{
     position: relative;
