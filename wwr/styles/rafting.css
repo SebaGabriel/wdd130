@@ -100,3 +100,23 @@ header{
     width: 100px;
     height: auto;
 }
+.contenedor1{
+    text-align: center;
+    padding: 10px;
+}
+.contenedor1 h2{
+    margin-bottom: 20px;
+}
+.contenido1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.contenido1 p{
+    width: 50%;
+}
+.contenido1 img{
+    max-width: 250px;
+    height: auto;
+}
