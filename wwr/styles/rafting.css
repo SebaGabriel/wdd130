@@ -4,9 +4,9 @@
 
     /* Color */
     --color-primary: #00596B;
-    --color-secondary: #055B5C;
+    --color-secondary: #044b4c;
     --color-text1: #001219;
-    --color-text2: #265A4A;
+    --color-text2: #1e4a3b;
 
     /* Typography */
     --font-family1: 'Playfair Display', serif;
@@ -19,37 +19,33 @@ body{
 /* header and nav */
 
 header{
-    margin: 16px auto;
-    display: grid;
-    grid-template-columns: 1fr auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    width: 100%;
     background-color: var(--color-primary);
 }
 .logo img{
     width: 80px;
     height: auto;
-    margin-left: 8px;
+}
+nav{
+    display: flex;
 }
 nav ul{
     display: flex;
-    flex-wrap: wrap;
     list-style: none;
     padding: 0;
-    margin-right: 30px;
+    margin: 0;
     gap: 20px;
     font-style: var(--font-family1);
 }
-nav li{
-    flex: 1 1 auto;
-}
 nav a{
-    display: block;
-    color: var(--color-text2);
     text-decoration: none;
-    padding: 8px 20px;
+    color: var(--color-text2);
+    padding: 10px 20px;
     font-size: 18px;
+    font-weight: bold;
 }
 .nav-btn{
     color: var(--color-primary);
