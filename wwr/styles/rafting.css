@@ -1,12 +1,12 @@
 :root{
     /* Color-body */
-    --color--background: #F4F9FF;
+    --color--background: #F2F2F2;
 
     /* Color */
-    --color-primary: #005F73;
-    --color-secondary: #0A9396;
+    --color-primary: #00596B;
+    --color-secondary: #055B5C;
     --color-text1: #001219;
-    --color-text2: #94D2BD;
+    --color-text2: #265A4A;
 
     /* Typography */
     --font-family1: 'Playfair Display', serif;
