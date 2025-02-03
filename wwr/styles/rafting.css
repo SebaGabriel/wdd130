@@ -3,10 +3,10 @@
     --color-background: #F2F2F2;
 
     /* Color */
-    --color-primary: #00596B;
-    --color-secondary: #044b4c;
+    --color-primary: #2e7d32;
+    --color-secondary: #147180;
     --color-text1: #001219;
-    --color-text2: #b9b9b9;
+    --color-text2: #E3E3E3;
 
     /* Typography */
     --font-family1: 'Playfair Display', serif;
@@ -173,7 +173,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
     color: var(--color-text2);
     font-family: var(--font-family2);
     font-size: 18px;
