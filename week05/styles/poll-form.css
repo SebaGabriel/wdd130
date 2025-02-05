@@ -32,10 +32,11 @@ form{
 .form-item{
     display: grid;
     align-items: center;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 10px;
 }
 .column1{
-    grid-template-columns: 0.5fr 1.5fr;
-    margin: 8px 10px 10px 10px;
+    margin: 8px 4px 10px 10px;
 }
 .column2{
     grid-template-columns: 1fr 2fr;
@@ -67,7 +68,6 @@ input, select, textarea{
 input[type="checkbox"] {
     width: 22px;
     height: 22px;
-    vertical-align: right;
 }
 button{
     margin: 16px;
