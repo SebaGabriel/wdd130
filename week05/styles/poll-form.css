@@ -5,10 +5,10 @@
 }
 body{
     font-family: 'PT Serif', serif; /*  */
+    background-color: #fff;
     font-weight: 600;
     font-size: 20px;
     color: #333;
-    background: #fff;
 }
 header{
     margin: 0 auto;
@@ -29,6 +29,18 @@ form{
     background-color: #eee;
     display: grid;
 }
+.form-item{
+    display: grid;
+    align-items: center;
+}
+.column1{
+    grid-template-columns: 0.5fr 1.5fr;
+    margin: 8px 10px 10px 10px;
+}
+.column2{
+    grid-template-columns: 1fr 2fr;
+    text-align: right;
+}
 fieldset{
     display: grid;
     grid-gap: 8px;
@@ -46,7 +58,6 @@ label, input, button, select, textarea{
     font-weight: 600;
 }
 label{
-    text-align: right;
     padding-right: 16px;
 }
 input, select, textarea{
@@ -56,7 +67,7 @@ input, select, textarea{
 input[type="checkbox"] {
     width: 22px;
     height: 22px;
-    vertical-align: bottom;
+    vertical-align: right;
 }
 button{
     margin: 16px;
@@ -66,6 +77,8 @@ button{
     border-radius: 8px;
     padding: 12px;
     font-size: 18px;
+    max-width: 200px;
+    margin: 0 0 0 35%;
 }
 button:hover{
     background-color: darkgreen;
