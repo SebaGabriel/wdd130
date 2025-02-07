@@ -166,6 +166,84 @@ nav a{
     font-size: 20px;
 }
 
+/* Contact Page */
+
+.company-info, .employees, .contact-form {
+    margin-bottom: 30px;
+}
+.company-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+}
+.company-info h2 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.company-info div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.company-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+.map {
+    flex-shrink: 0; /* Evita que el mapa se reduzca demasiado */
+}
+.map iframe {
+    width: 400px; /* Ajusta el tamaño del mapa */
+    height: 300px;
+    border-radius: 10px;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-around;
+}
+.employees h2{
+    text-align: center;
+    font-family: var(--font-family1);
+    font-size: 30px;
+    font-weight: 800;
+}
+.employee{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.employee img {
+    width: 150px;
+    height: auto;
+    border-radius: 20px;
+}
+form label, form p {
+    display: block;
+    margin-top: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+}
+button:hover {
+    background: #555;
+}
+
 /* footer */
 
 footer{
