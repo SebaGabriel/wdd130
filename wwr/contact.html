@@ -30,7 +30,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="company-main">
         <section class="company-info">
             <h2>Contact Information</h2>
             <p>Address: 123 River Road, Adventure City, AC 12345</p>
@@ -48,19 +48,18 @@
             <h2>Meet Our Team</h2>
             <div class="employee">
                 <img src="images/happy-client.jpg" alt="John Doe">
-                <p>John Doe - Tour Guide</p>
-            </div>
-            <div class="employee">
-                <img src="images/happy-client.jpg" alt="John Doe">
-                <p>Juliet Parker - Tour Guide</p>
+                <h3>John Doe - Tour Guide</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugiat architecto non saepe tempora molestiae?</p>
             </div>
             <div class="employee">
                 <img src="images/happy-client.jpg" alt="Jane Smith">
-                <p>Jane Smith - Customer Support</p>
+                <h3>Jane Smith - Customer Support</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugiat architecto non saepe tempora molestiae?</p>
             </div>
             <div class="employee">
                 <img src="images/happy-client.jpg" alt="Mike Johnson">
-                <p>Mike Johnson - Safety Officer</p>
+                <h3>Mike Johnson - Safety Officer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugiat architecto non saepe tempora molestiae?</p>
             </div>
         </section>
 
@@ -74,26 +73,31 @@
                 <input type="email" id="email" name="email" required>
                 
                 <p>Purpose of Message:</p>
-                <input type="radio" id="general" name="purpose" value="general">
                 <label for="general">General Inquiry</label>
-                <input type="radio" id="reservation" name="purpose" value="reservation">
+                <input type="radio" id="general" name="purpose" value="general">
+
                 <label for="reservation">Reservation Question</label>
-                <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                <input type="radio" id="reservation" name="purpose" value="reservation">
+
                 <label for="suggestion">Website Suggestion</label>
+                <input type="radio" id="suggestion" name="purpose" value="suggestion">
                 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
                 
-                <input type="checkbox" id="newsletter" name="newsletter">
                 <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
                 
                 <button type="submit">Send Message</button>
             </form>
+            <div class="contact-image">
+                <img src="images/rafting3.jpg" alt="contact-image">
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        <p>©2025 | HTML Form - User Poll Activity | Sebastian García</p>
         <div class="icons">
             <a href="https://facebook.com">
                 <img src="images/facebook.svg" alt="Facebook">
