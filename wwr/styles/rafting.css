@@ -192,7 +192,7 @@ nav a{
     flex: 1; /* Ocupará el espacio disponible */
 }
 .map{
-    flex: 2;
+    flex: 1.2;
 }
 .map iframe{
     width: 100%; /* Ajusta el tamaño del mapa */
@@ -213,7 +213,7 @@ nav a{
 .employee-container{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 100px;
 }
 .employee{
     width: 26%;
@@ -225,11 +225,13 @@ nav a{
     border-radius: 5px;
 }
 .employee h3{
-    font-size: 18px;
+    font-family: var(--font-family1);
+    font-size: 21px;
     margin: 10px 0;
 }
 .employee p{
-    font-size: 14px;
+    font-family: var(--font-family2);
+    font-size: 17px;
     color: var(--color-text1);
 }
 
