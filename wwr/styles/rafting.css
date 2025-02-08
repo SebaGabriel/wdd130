@@ -233,62 +233,78 @@ nav a{
     color: var(--color-text1);
 }
 
-/* Formulario de contacto */
-.contact-form{
+/* Form of Contact */
+
+.contact-form {
     text-align: center;
     padding: 40px;
 }
-.contact-form h2{
+.contact-form h2 {
     font-size: 24px;
+    font-family: var(--font-family1);
     margin-bottom: 20px;
 }
-.form-container{
+.form-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px; /* Espacio entre el formulario y la imagen */
+    gap: 100px;
 }
-form{
-    flex: 1; /* Ocupará el espacio disponible */
-    max-width: 500px; /* Ajusta el tamaño del formulario */
+form {
+    flex: 1; 
+    max-width: 500px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: var(--font-family2);
 }
-form label{
-    align-self: flex-start;
-    font-size: 16px;
-    margin-top: 10px;
+form label {
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 5px;
 }
-form input, form textarea{
+form p {
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+form input, form textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid var(--color-text2);
+    border: 1px solid var(--color-text1);
     border-radius: 5px;
-    margin-top: 5px;
+    margin-bottom: 10px;
 }
+
 form input[type="radio"], form input[type="checkbox"] {
     width: auto;
-    margin-right: 5px;
+    margin: 5px;
 }
-button{
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
+form button {
+    background-color: var(--color-primary);
+    color: var(--color-text2);
+    font-size: 16px;
+    font-weight: bold;
+    align-self: center;
     border: none;
     border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 15px;
     cursor: pointer;
-    margin-top: 15px;
 }
-button:hover{
-    background-color: #555;
+button:hover {
+    background-color: var(--color-secondary);
 }
-.contact-image{
+.contact-image {
     flex: 1;
     display: flex;
     justify-content: center;
 }
-.contact-image img{
+.contact-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px; /* Bordes redondeados opcionales */
+    border-radius: 10px; 
 }
 
 /* footer */
