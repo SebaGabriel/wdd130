@@ -340,3 +340,13 @@ footer p{
     width: 30px;
     height: auto;
 }
+/* Estilos para el enlace del wireframe */
+.wireframe-link {
+    text-decoration: none;
+    color: var(--color-text2);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.wireframe-link:hover {
+    color: var(--color-background);
+}
