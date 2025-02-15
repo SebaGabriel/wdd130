@@ -113,7 +113,7 @@ nav a{
 /* Newsletter Section */
 .newsletter {
     text-align: center;
-    background-color: #045d9c;
+    background-color: #002766;
     color: var(--color-background);
     padding: 20px;
     border-radius: 5px;
@@ -181,7 +181,7 @@ nav a{
 .grid-content {
     text-align: center;
     padding: 50px 20px;
-    background-color: #f8f8f8;
+    background-color: var(--color-background);
 }
 .grid-content h2 {
     font-size: 32px;
@@ -196,7 +196,7 @@ nav a{
     align-items: center;
 }
 .grid-item {
-    background: #fff;
+    background: var(--color-background);
     padding: 22px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -250,8 +250,8 @@ nav a{
 /* Common Content Section */
 .common-content {
     text-align: center;
-    background-color: #333;
-    color: white;
+    background-color: var(--color-text1);
+    color: var(--color-background);
     padding: 10px 20px 20px;
     margin: 30px 0px 10px 0px;
     border-radius: 5px;
@@ -271,7 +271,7 @@ nav a{
 .common-content ul li a {
     font-size: 18px;
     font-family: var(--font-family2);
-    color: white;
+    color: var(--color-background);
     text-decoration: none;
 }
 .common-content ul li a:hover {
@@ -363,16 +363,16 @@ nav a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px; /* Espacio entre texto y mapa */
+    gap: 20px;
 }
 .info-text {
-    flex: 1; /* Ocupará el espacio disponible */
+    flex: 1;
 }
 .map{
     flex: 1.2;
 }
 .map iframe{
-    width: 100%; /* Ajusta el tamaño del mapa */
+    width: 100%;
     height: 300px;
 }
 
@@ -490,7 +490,7 @@ button:hover {
 
 /* Call to Action Section */
 .call-to-action {
-    background: #ddd;
+    background: var(--color-text2);
     padding: 10px 20px 40px 20px;
     text-align: center;
 }
@@ -507,7 +507,7 @@ button:hover {
     display: inline-block;
     margin-top: 10px;
     padding: 14px 20px;
-    background-color: #555;
+    background-color: var(--color-text1);
     color: var(--color-text2);
     text-decoration: none;
     border-radius: 5px;
@@ -531,7 +531,7 @@ button:hover {
     flex-wrap: wrap;
 }
 .trip-card {
-    background: white;
+    background: var(--color-text2);
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -553,14 +553,14 @@ button:hover {
 .trip-card p {
     font-size: 1rem;
     padding: 0 15px;
-    color: #333;
+    color: var(--color-text1);
 }
 .btn {
     display: inline-block;
     margin-top: 10px;
     padding: 12px 18px;
-    background: #e0e0e0;
-    color: var(--color-text1);
+    background: var(--color-secondary);
+    color: var(--color-text2);
     font-weight: bold;
     text-decoration: none;
     border-radius: 5px;
@@ -585,7 +585,7 @@ button:hover {
 }
 .trip-item {
     display: flex;
-    background: white;
+    background: #D0D0D0;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -609,13 +609,13 @@ button:hover {
 .trip-info p {
     font-family: var(--font-family2);
     font-size: 18px;
-    color: #666;
+    color: #595959;
 }
 .trip-info .btn {
     display: inline-block;
     margin-top: 10px;
     padding: 12px 18px;
-    background: #007BFF;
+    background: var(--color-secondary);
     color: var(--color-text2);
     text-decoration: none;
     border-radius: 5px;
